@@ -1,0 +1,146 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:#EF0C0C;
+    width: 100%;
+
+}
+.container3{
+    display: flex;
+    justify-content:center;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 20%;
+    flex-wrap: nowrap;
+    align-items: center;
+    z-index: 3;
+}
+
+#menu{
+    position: absolute;
+    height:10%;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-flow: column;
+    flex-direction: column;
+    padding: 0px;
+    margin-top: 4.8%;
+    background-color: #EF0C0C;
+    align-items: center;
+}
+#menu ul {
+    position:relative;
+    height: 31%;
+    display: flex;
+    vertical-align:middle;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    transform: none;
+    overflow: hidden;
+    line-height: normal;
+    list-style-type: none;
+    text-align: center;
+    align-items: center;
+    font-size: 22px;
+    padding-inline-start: 0px;
+}
+#menu li{
+    line-height: 1.17;
+    padding: 80px;
+    border-top: 0;
+    margin: 23px;
+    background-color: #970606;
+}
+#menu li:hover{
+    transform: scale(0.70);
+    height: auto;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all  0.3s;
+    transition:all 0.3s;
+}
+#menu a{
+    text-decoration: none;
+    color: #FDFBFB;
+    font-weight: 900;
+    font-size: 1em;   
+}
+#menu img{
+    width: 78px;
+    height: 78px;
+}
+#menu img:hover{
+    transform: scale(0.70);
+    height: auto;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all  0.3s;
+    transition:all 0.3s;
+}
+.container1{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    width: 77.8%;
+    height: 680px;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: center;
+    margin-top: 4%;
+    margin-left: 0%;
+    background-image: url(../img/FundoBrentford.jpg);
+}
+.container2{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    width: 22.2%;
+    height: 0px;
+    flex-wrap:nowrap;
+    align-items: center;
+    text-align: center;
+    margin-left:77.8%;
+    margin-top: -22%;
+
+}
+
+#Fundo img{
+    width: 19%;
+    height: 100%;
+    margin-top: 16%;
+}
+#Fundo img:hover{
+    transform: scale(0.70);
+    height: auto;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all  0.3s;
+    transition:all 0.3s;
+}
+#Fundo1 img{
+    width: 100%;
+    height: 100%;
+}
+
+#Fundo img:hover{
+    transform: scale(0.70);
+    height: auto;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all  0.3s;
+    transition:all 0.3s;
+}
+#Fundo1 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+h1 , h2 {
+    padding-top: 1rem;
+    color: #000000;
+    text-shadow: 1px 1px 1px #E6E6E6;
+}
+
+#footer{
+    text-align: center;
+}
