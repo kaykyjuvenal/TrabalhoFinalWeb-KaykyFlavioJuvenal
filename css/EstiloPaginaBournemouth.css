@@ -68,8 +68,8 @@ body{
     font-size: 1em;   
 }
 #menu img{
-    width: 78px;
-    height: 78px;
+    width: 70px;
+    height: 70px;
 }
 #menu img:hover{
     transform: scale(0.70);
