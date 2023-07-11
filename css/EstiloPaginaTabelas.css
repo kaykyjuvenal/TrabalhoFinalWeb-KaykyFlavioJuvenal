@@ -108,7 +108,7 @@ body{
     flex-flow: column;
     flex-direction: column;
     padding: 0px;
-    margin-top: 18%;
+    margin-top: 20%;
     text-align: center;
     background-color: #641677;
     align-items: center;
@@ -155,22 +155,31 @@ body{
     margin:0px;
     padding: 0px;
     width: 100%;
-    height: 498px;
+    height: 0;
     flex-wrap: nowrap;
     align-items: center;
     text-align: center;
     background-color: #641677;
-    margin-top: 8.8%;
 }
-#botoes1 img{
-    width: 60%;
-    height: 100%;
-}
-#botoes2 img{
-    width: 60%;
-    height: 100%;
+#botoes1 {
+    position: absolute;
+    height: 320%;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-flow: column;
+    flex-direction: column;
+    padding: 0px;
+    margin-top: 180%;
+    text-align: center;
+    background-color: #641677;
+    align-items: center;
 }
 
+#botoes1 img{
+    width: 80%;
+    height: 60%;
+}
 #botoes1 img:hover{
     transform: scale(0.70);
     height: auto;
@@ -178,6 +187,31 @@ body{
     -webkit-transition: all  0.3s;
     transition:all 0.3s;
 }
+#botoes2 {
+    position: absolute;
+    height: 300%;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-flow: column;
+    flex-direction: column;
+    padding: 0px;
+    margin-top: 460%;
+    text-align: center;
+    background-color: #641677;
+    align-items: center;
+}
+#botoes2 video{
+    width: 70%;
+    height: 30%;
+
+}
+#botoes2 img{
+    width: 80%;
+    height: 60%;
+}
+
+
 #botoes2 img:hover{
     transform: scale(0.70);
     height: auto;
@@ -206,10 +240,11 @@ body{
     flex-wrap:nowrap;
     flex-flow: column;
     padding: 0px;
-    margin-top:0;
+    margin-top:100%;
     width:100%;
     text-align: center;
     align-items: center;
+
 }
 #header3 img{
     width: 100%;
@@ -236,24 +271,7 @@ h1 , h2 {
         align-items: center;
         z-index: 0;
         height: 0;
-    }
-    #header1 {
-        position: absolute;
-        height: 12%;
-        background-color: white;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        flex-flow: column;
-        padding: 0px;
-        margin-top: 4%;
-        width: 100%;
-        text-align: center;
-        align-items: center;
-    }
-    #header1 img{
-        width: 100%;
-        height: 100%;
+        display: none;
     }
     .container3 {
         display: flex;
@@ -275,7 +293,7 @@ h1 , h2 {
         flex-flow: column;
         flex-direction: column;
         padding: 0px;
-        margin-top: 23%;
+        margin-top: 48%;
         text-align: center;
         background-color: #641677;
         align-items: center;
@@ -288,14 +306,14 @@ h1 , h2 {
     }
     #menu li {
         line-height: 1.17;
-        padding: 35px;
+        padding: 22px;
         border-top: 0;
-        margin: 16px;
+        margin: 9px;
         background-color: #451165;
     }
     #menu ul {
         position: relative;
-        height: 30px;
+        height: 80px;
         display: flex;
         vertical-align: middle;
         width: auto;
@@ -307,7 +325,7 @@ h1 , h2 {
         list-style-type: none;
         text-align: center;
         align-items: center;
-        font-size: 12px;
+        font-size: 15px;
     }
     .container1 {
         display: flex;
@@ -320,28 +338,7 @@ h1 , h2 {
         align-items: center;
         z-index: 1;
     }
-    #header2 {
-        position: absolute;
-        height: 82%;
-        width: 100%;
-        display: flex;
-        flex-wrap: nowrap;
-        flex-flow: column;
-        flex-direction: column;
-        padding: 0px;
-        margin-top: 120%;
-        text-align: center;
-        align-items: center;
-        background-color: #641677;
-    }
-    #header2 #imagemdefundo {
-        width: 100%;
-        height: 75%;
-    }
-    #header2 img {
-        width: 75%;
-        height: 28%;
-    }
+
     .container2 {
         display: flex;
         justify-content: space-around;
@@ -356,14 +353,14 @@ h1 , h2 {
     }
     #header3 {
         position: absolute;
-        height: 0%;
+        height: 5%;
         background-color: white;
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
         flex-flow: column;
         padding: 0px;
-        margin-top: 213%;
+        margin-top:400%;
         width: 100%;
         text-align: center;
         align-items: center;
