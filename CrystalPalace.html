@@ -5,32 +5,360 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
     <link rel="stylesheet" type="text/css" href="css/EstiloCrystalPalace.css">
 </head>
     <body>
+        <div class="topnav" id="myTopnav" >
+            <a href="https://www.premierleague.com"><img src="img/Simbolo.png"></a>
+            <a href="Bournemouth.html">Bournemouth</a>
+            <a href="Arsenal.html">Arsenal</a>
+            <a href="AstonVilla.html">Aston Villa</a>
+            <a href="Brentford.html">Brentford</a>
+            <a href="Chelsea.html">Chelsea</a>
+            <a href="Brighton.html">Brighton</a>
+            <a href="CrystalPalace.html">Crystal Palace</a>
+            <a href="Everton.html">Everton</a>
+            <a href="Fullham.html">Fullham</a>
+            <a href="Leeds.html">Leeds Utd</a>
+            <a href="Leiscester.html">Leiscester</a>
+            <a href="Liverpool.html">Liverpool</a>
+            <a href="ManchesterCity.html">Manchester City</a>
+            <a href="ManchesterUtd.html">Manchester Utd</a>
+            <a href="NewcastleUtd.html">Newcastle Utd</a>
+            <a href="Southamptom.html">Southamptom</a>
+            <a href="NothinghamForrest.html">NothinghamForrest</a>
+            <a href="Tottenham.html">Tottenham</a>
+            <a href="Westham.html">Westham</a>
+            <a href="Wolverhamptom.html">Wolverhamptom</a>
+            <a href="javascript:void(0);" class="icon" onclick="menuResponsivo()">
+                <span class="material-symbols-outlined" style="font-size: 14px;">
+                    Menu
+                </span> 
+            </a>
+        </div>
+        <script>
+            function menuResponsivo() {
+                var x = document.getElementById("myTopnav")
+                if (x.className === "topnav"){
+                    x.className += " responsive"
+                }else{
+                    x.className = "topnav"
+                }
+            }
+        </script>  
         <div class="container3">
             <div id="menu">
                 <div class="item4">
                     <ul>
-                        <a href="CrystalPalace.html"><img src="logos/LogoCrystalPalace.png"vspace="0" hspace = "100"></a>
+                        <a href="https://www.premierleague.com/clubs/6/Crystal-Palace/squad"><img src="logos/LogoCrystalPalace.png"></a>
                         <li><a href="index.html">Pagina inicial </a></li>
                         <li><a href="Tabelas.html">Tabelas </a></li>
                         <li><a href="Premios.html">Premios</a></li>
-                        <a href="https://www.premierleague.com"><img src="img/Simbolo-removebg-preview.png"vspace="0" hspace = "100" style="float:left"></a>
+                        <a href="https://www.premierleague.com"><img src="img/Simbolo-removebg-preview.png"></a>
                     </ul>
                 </div>
+                <h2 style="text-align: center; margin-top: -11%;margin-right: 23%;color: #FAFAFA;">Dados dos Jogadores na Esquerda<br> valores na Direita <br> para mais detalhes clique no emblema do clube</h2>
             </div>
         </div>
         <div class="container1">
             <div id="Fundo">
-                <img src="tabela/TabelaCriarElencoAzul.png"vspace="0" hspace = "40">
-                <img src="tabela/TabelaDesempenhoGeralAzul.png"vspace="0" hspace = "40">
-                <img src="tabela/TabelaValorDosJogadoresAzul.png"vspace="0" hspace = "40">
+                <table id="TabelaJogadores">
+                    <tr>
+                        <td>Nome</td>
+                        <td>Numero</td>
+                        <td>Partidas</td>
+                        <td>Gols</td>
+                        <td>Assistencias</td>
+                        <td>Posição</td>
+                    </tr>
+                    <tr>
+                        <td>Vicente Guaita</td>
+                        <td>13</td>
+                        <td>27</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>Goleiro</td>
+                    </tr>
+                    <tr>
+                        <td>Sam Johnstone</td>
+                        <td>21</td>
+                        <td>9</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>Goleiro</td>
+                    </tr>
+                    <tr>
+                        <td>Joel Ward</td>
+                        <td>2</td>
+                        <td>28</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>Lateral Direito/Zagueiro</td>
+                    </tr>
+                    <tr>
+                        <td>Tyrick Mitchell</td>
+                        <td>3</td>
+                        <td>36</td>
+                        <td>0</td>
+                        <td>2</td>
+                        <td>Lateral Esquerdo</td>
+                    </tr>
+                    <tr>
+                        <td>Marc Guehi</td>
+                        <td>6</td>
+                        <td>37</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>Zagueiro</td>
+                    </tr> 
+                    <tr>                  
+                        <td>Joachim Anderesen</td>
+                        <td>16</td>
+                        <td>32</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>Zagueiro</td>
+                    </tr> 
+                    <tr>                  
+                        <td>James Tomkins</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>Zagueiro</td>
+                    </tr> 
+                    <tr>                  
+                        <td>Nathaniel Clyne </td>
+                        <td>17</td>
+                        <td>22</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>Lateral Direito</td>
+                    </tr>
+                    <tr>
+                        <td>Chris Richards</td>
+                        <td>26</td>
+                        <td>9</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>Zagueiro</td>
+                    </tr>
+                    <tr>
+                        <td>Luka Milivojevic</td>
+                        <td>4</td>
+                        <td>18</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>Meio Campo</td>
+                    </tr>
+                    <tr>
+                        <td>Michal olise</td>
+                        <td>7</td>
+                        <td>37</td>
+                        <td>2</td>
+                        <td>11</td>
+                        <td>Meio Campo</td>
+                    </tr>
+                    <tr>
+                        <td>Albert Sambi Lokonga</td>
+                        <td>8</td>
+                        <td>15</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>meio campo</td>
+                    </tr>
+                    <tr>
+                        <td>Eberechi Eze</td>
+                        <td>10</td>
+                        <td>38</td>
+                        <td>10</td>
+                        <td>5</td>
+                        <td>Meio campo</td>
+                    </tr>
+                    <tr>
+                        <td>Jeff Schlupp</td>
+                        <td>15</td>
+                        <td>34</td>
+                        <td>3</td>
+                        <td>1</td>
+                        <td>Meio Campo</td>
+                    </tr>
+                    <tr>
+                        <td>Will hughes</td>
+                        <td>19</td>
+                        <td>27</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>Meio Campo</td>
+                    </tr>
+                    <tr>
+                        <td>Cheick Doucouré</td>
+                        <td>28</td>
+                        <td>34</td>
+                        <td>0</td>
+                        <td>3</td>
+                        <td>Meio Campo</td>
+                    </tr>
+                    <tr>
+                        <td>Jordan Ayew</td>
+                        <td>9</td>
+                        <td>38</td>
+                        <td>4</td>
+                        <td>3</td>
+                        <td>Atacante</td>
+                    </tr>
+                    <tr>
+                        <td>Wilfried Zaha</td>
+                        <td>11</td>
+                        <td>27</td>
+                        <td>7</td>
+                        <td>2</td>
+                        <td>Atacante</td>
+                    </tr>
+                    <tr>
+                        <td>Jean-Philippe Mateta</td>
+                        <td>14</td>
+                        <td>29</td>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>Atacante</td>
+                    </tr>
+                    <tr>
+                        <td>Odsonne Édouard</td>
+                        <td>22</td>
+                        <td>35</td>
+                        <td>5</td>
+                        <td>2</td>
+                        <td>Atacante</td>
+                    </tr>
+                    <tr>
+                        <td>Naouirou Ahamada</td>
+                        <td>29</td>
+                        <td>8</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>Meio Campo</td>
+                    </tr>
+                </table>
+                <table id="TabelaValores">
+                    <tr>
+                        <td>Nome</td>
+                        <td>Idade</td>
+                        <td>Valor</td>
+                    </tr>
+                    <tr>
+                        <td>Vicente Guaita</td>
+                        <td>36</td>
+                        <td>1 Milhão de Euros</td>
+                    </tr>
+                    <tr>
+                        <td>Sam Johnstone</td>
+                        <td>30</td>
+                        <td>6 Milhões de Euros</td>
+                    </tr>
+                    <tr>
+                        <td>Joel Ward</td>
+                        <td>33</td>
+                        <td>1 Milhão e 200 Mil Euros</td>
+                    </tr>
+                    <tr>
+                        <td>Tyrick Mitchell</td>
+                        <td>23</td>
+                        <td>22 Milhões de Euros</td>
+                    </tr>
+                    <tr>
+                        <td>Marc Guehi</td>
+                        <td>23</td>
+                        <td>35 Milhões de Euros</td>
+                    </tr> 
+                    <tr>                  
+                        <td>Joachim Anderesen</td>
+                        <td>27</td>
+                        <td>30 Milhões de Euros</td>
+                    </tr> 
+                    <tr>                  
+                        <td>James Tomkins</td>
+                        <td>34</td>
+                        <td>800 Mil Euros</td>
+                    </tr> 
+                    <tr>                  
+                        <td>Nathaniel Clyne </td>
+                        <td>32</td>
+                        <td>2 Milhões de Euros</td>
+                    </tr>
+                    <tr>
+                        <td>Chris Richards</td>
+                        <td>23</td>
+                        <td>10 Milhões de Euros</td>
+                    </tr>
+                    <tr>
+                        <td>Luka Milivojevic</td>
+                        <td>32</td>
+                        <td>2 Milhões de Euros</td>
+                    </tr>
+                    <tr>
+                        <td>Michal olise</td>
+                        <td>21</td>
+                        <td>38 Milhões de Euros</td>
+                    </tr>
+                    <tr>
+                        <td>Albert Sambi Lokonga</td>
+                        <td>23</td>
+                        <td>15 Milhões de Euros</td>
+                    </tr>
+                    <tr>
+                        <td>Eberechi Eze</td>
+                        <td>25</td>
+                        <td>40 Milhões de Euros</td>
+                    </tr>
+                    <tr>
+                        <td>Jeff Schlupp</td>
+                        <td>30</td>
+                        <td>7 Milhões de Euros </td>
+                    </tr>
+                    <tr>
+                        <td>Will hughes</td>
+                        <td>28</td>
+                        <td>5 Milhões de euros</td>
+                    </tr>
+                    <tr>
+                        <td>Cheick Doucouré</td>
+                        <td>23</td>
+                        <td>35 Milhões de Euros</td>
+                    </tr>
+                    <tr>
+                        <td>Jordan Ayew</td>
+                        <td>31</td>
+                        <td>5 Milhões de Euros</td>
+                    </tr>
+                    <tr>
+                        <td>Wilfried Zaha</td>
+                        <td>30</td>
+                        <td>22 Milhões de Euros</td>
+                    </tr>
+                    <tr>
+                        <td>Jean-Philippe Mateta</td>
+                        <td>14</td>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <td>Odsonne Édouard</td>
+                        <td>26</td>
+                        <td>7 Milhões de Euros</td>
+                    </tr>
+                    <tr>
+                        <td>Naouirou Ahamada</td>
+                        <td>21</td>
+                        <td>10 Milhões de Euros</td>
+                    </tr>
+                </table>
             </div>
         </div>
         <div class="container2">
             <div id="Fundo1">
                 <img src="img/DadosLateraisCrystalPalace.png">
+                <img src="img/DadosLateraisCrystalPalace.png" id="img2">
             </div>
         </div>
     </body>
